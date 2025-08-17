@@ -241,28 +241,16 @@ ends with()
 # print(a[-1])
 # print(a[10])
 
-'''LIST METHODS []   ---->  pre define methods'''
+'''LIST METHODS []'''
 '''
 append
 extend
 count
-sort
-clear
 insert
 pop
 remove
 index
 '''
-''' -----> builtin methods
-
-sum 
-min
-max
-len
-
-'''
-
-
 '''MUTABLE DATA TYPE ----> CHANGEALBE'''
 
 
@@ -431,16 +419,242 @@ CLOSE
 # print(s.read())
 # s.close()
 
+# s=open('demo2.txt',mode='w')
+# print(s.write())
+# s.close()
+
+# s=open('demo2.txt',mode='r+')
+# s.read()
+# s.write("r+ mode")
+# s.close()
+
+# s=open('demo2.txt',mode='w+')
+# s.write("w+ mode")
+# s.seek(0)
+# print(s.read())
+# s.close()
 
 
-'''CLASS ---> template or blue print of object'''
-'''class class_name():'''
-'''OBJECT--->physical entity--->we can create no of objects for class
-object----> data and function
-syntax= object name = class name()
+''' ERROR HANDING'''
 
-access obj---> objectname.method()
 '''
+try:
+risky code
+except:
+print("error")
+else:
+print("mo error")
+finally:
+print("always")
+'''
+
+# try:
+#     print(b)
+# except:
+#     print("error")    
+# else:
+#     print("no error")
+# finally:
+#     print("always")
+
+
+# try:
+#     print('a'+33)
+# except TypeError :
+#     print("type error")
+# except ValueError:
+#      print("value error") 
+
+''' CLASS ---> class is a blue print of obeject and template'''
+'''SYNTAX---> class class_name():'''
+'''OBJECT----> PHYSICAL ENTTY AND combination of DATA AND FUNCTION'''
+'''SYNTAX---->object name=clas name()'''
+
+# class python():
+#     a=2
+#     def output(self):
+#         print(self.a)
+# b=python()
+# b.output()       
+
+'''INHERTANCE----> parent porperties---->child'''
+'''
+SINGLE INHERITANCE
+MULTILEVEL INHERTANCE
+MULTIPLE INHERITANCE
+HIERARCHICAL INHERITANCE
+'''
+
+# class parent():
+#     def output(self):
+#         print("i am parent")
+# class child(parent):
+#     def outputc(self):
+#         print("i am chid")
+# c=child()
+# c.outputc()        # child method 
+# c.output()         # parent method
+     
+
+# class grandfather():
+#     def outputgf(self):
+#         print("i am grand father")
+# class parent(grandfather):
+#     def output(self):
+#         print("i am parent")
+# class child(parent):
+#     def outputc(self):
+#         print("i am chid")
+# c=child()
+# c.outputc()        # child method 
+# c.output()        # parent method
+# c.outputgf()      
+
+
+# class father():
+#     def outputgf(self):
+#         print("i am father")
+# class mother():
+#     def output(self):
+#         print("i am mother")
+# class child(father,mother):
+#     def outputc(self):
+#         print("i am chid")
+# c=child()
+# c.outputc()        # child method 
+# c.output()        # parent method
+# c.outputgf()      
+
+
+# class father():
+#     def outputgf(self):
+#          print("i am father")
+# class child1(father):
+#      def output(self):
+#          print("i am child1")
+# class child2(father):
+#      def outputc(self):
+#        print("i am child2")
+# c1=child1()
+# c2=child2()
+# c1.output()                  # child method 
+# c1.outputgf()        # parent method   
+# c2.outputc()        # child method                 # parent method
+# c2.outputgf()      
+
+
+''' ENCAPSUTION , ploymorphic'''
+'''  
+wrapping of variables methods in a single unti i call encapsulation
+public
+private  __
+protected  _
+'''
+
+# class demo():
+#     def  __init__(self,a,b):
+#         self.__a=a
+#         self._b=b
+# class demo2(demo):
+#     def output(self):
+#         print(self._b)
+# d=demo2(3,2)
+# d.output()                
+    
+
+# def add(a,b):
+#     print(a+b)
+# add(1,2)
+# add('a','b')
+# add([34,8],[9,7])
+# add((4,6),(6,9))   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
