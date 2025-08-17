@@ -241,16 +241,28 @@ ends with()
 # print(a[-1])
 # print(a[10])
 
-'''LIST METHODS []'''
+'''LIST METHODS []   ---->  pre define methods'''
 '''
 append
 extend
 count
+sort
+clear
 insert
 pop
 remove
 index
 '''
+''' -----> builtin methods
+
+sum 
+min
+max
+len
+
+'''
+
+
 '''MUTABLE DATA TYPE ----> CHANGEALBE'''
 
 
@@ -415,15 +427,20 @@ w+--write read (truncate)
 CLOSE
 '''
 
-s=open('demo2.txt',mode='r')
-print(s.read())
-s.close()
+# s=open('demo2.txt',mode='r')
+# print(s.read())
+# s.close()
 
 
 
+'''CLASS ---> template or blue print of object'''
+'''class class_name():'''
+'''OBJECT--->physical entity--->we can create no of objects for class
+object----> data and function
+syntax= object name = class name()
 
-
-
+access obj---> objectname.method()
+'''
 
 
 
